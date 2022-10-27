@@ -59,6 +59,43 @@ p {
     background-position: center;
 }
 
+/* MOVED TO FOLLOW SEMANTIC STRUCTURE */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* MOVED TO FOLLOW SEMANTIC STRUCTURE */
+/* CONSOLIDATED - DRY */
+.search-engine-optimization,
+.online-reputation-management,
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* MOVED TO FOLLOW SEMANTIC STRUCTURE */
+/* CONSOLIDATED - DRY */
+.search-engine-optimization img,
+.online-reputation-management img, 
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* MOVED TO FOLLOW SEMANTIC STRUCTURE */
+/* CONSOLIDATED - DRY */
+.search-engine-optimization h2,
+.online-reputation-management h2,
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
 .float-left {
     float: left;
     margin-right: 25px;
@@ -67,12 +104,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 .benefits {
@@ -86,6 +117,7 @@ p {
     background-color: #2589bd;
 }
 
+/* CONSOLIDATED - DRY */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -93,6 +125,7 @@ p {
     color: #ffffff;
 }
 
+/* CONSOLIDATED - DRY */
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
@@ -100,36 +133,13 @@ p {
     text-align: center;
 }
 
+/* CONSOLIDATED - DRY */
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.search-engine-optimization img,
-.online-reputation-management img, 
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 .footer {
