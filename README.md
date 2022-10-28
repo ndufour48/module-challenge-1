@@ -14,11 +14,11 @@ The Horiseon webpage can be used to learn about Search Engine Optimization, Onli
 
 ## Screenshot
 
-
+![](Assets/01-html-css-git-homework-demo.png)
 
 ## Link 
 
-
+[Horiseon](https://ndufour48.github.io/module-challenge-1/Develop/index.html)
 
 ## Credits
 
