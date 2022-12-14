@@ -18,7 +18,7 @@ The Horiseon webpage can be used to learn about Search Engine Optimization, Onli
 
 ## Link 
 
-[Horiseon](https://ndufour48.github.io/refactoring-horiseon-website/Develop/index.html)
+[Horiseon](https://ndufour48.github.io/refactoring-horiseon-website/)
 
 ## Credits
 
